@@ -11,6 +11,6 @@ public class WeatherService {
 
 
     public WeatherResponse getWeather(String city) {
-        return weatherClient.getWeatherByCity(city, "29049fa06253ceafe66fc06d6fd3139b");
+        return weatherClient.getWeatherByCity(city, "your_api_key");
     }
 }
